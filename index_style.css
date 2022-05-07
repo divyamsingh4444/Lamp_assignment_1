@@ -1,0 +1,75 @@
+h1 {
+  font-size: 50px;
+  color: blue;
+}
+body {
+  background-color: rgb(210, 136, 18);
+  font-family: 'Courier New', Courier, monospace;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  padding: 20px;
+  width: 500px;
+  background-color: rgb(156, 100, 100);
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 12px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border-width: 1px;
+  background: rgb(217, 236, 7);
+  border-color: beige;
+}
+
+input[type="checkbox"] {
+  margin-left: -100px;
+}
+
+#firstname {
+  width: 45%;
+  padding: 12px;
+  margin: 5px 20px 22px 0;
+  float: left;
+  border-width: 1px;
+  background: pink;
+  border-color: beige;
+}
+
+#lastname {
+  width: 45%;
+  padding: 12px;
+  margin: 5px 0 22px 20px;
+  float: left;
+  border-width: 1px;
+  background: white;
+  border-color: beige;
+}
+
+.registerbtn {
+  background-color: #4d12d6;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+h1 {
+  font-family: sans-serif;
+  text-align: center;
+  font-size: 30px;
+  max-width: 600px;
+  position: relative;
+}
+
+#last {
+  color: white;
+}
